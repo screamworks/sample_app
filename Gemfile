@@ -17,9 +17,13 @@ gem 'selenium-webdriver'
 gem 'capybara'
 end
 
+
 group :development, :test do
 	gem 'rspec-rails'
 end
+
+
+gem 'factory_girl_rails', '4.2.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
